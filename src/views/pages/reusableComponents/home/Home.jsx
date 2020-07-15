@@ -228,7 +228,7 @@ class Home extends React.Component {
     return (
       <>
         <AlternativeHeader
-          name="Corona Tracker"
+          name="Corona-Tracker"
         />
         <Container className="mt--12" fluid>
           <div className="row">
