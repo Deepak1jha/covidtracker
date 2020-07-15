@@ -351,9 +351,9 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-          <div className="card table-responsive overflow-visible">
-            <div className="card-body table-responsive overflow-visible ">
-              <div className="my-4 table-responsive overflow-visible ">
+          <div className={"card table-responsive overflow-visible"}>
+            <div className={"card-body table-responsive overflow-visible "}>
+              <div className={"my-4 table-responsive overflow-visible "}>
                 <ToolkitProvider
                   keyField="id"
                   data={this.state.countryListNew}
@@ -363,7 +363,7 @@ class Home extends React.Component {
                   {
                     props => (
                       <div>
-                        <h3>Search</h3>
+                        <h3>Searche</h3>
                         <SearchBar {...props.searchProps} />
                         <hr/>
                         <BootstrapTable
