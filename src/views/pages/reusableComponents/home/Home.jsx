@@ -353,7 +353,7 @@ class Home extends React.Component {
           </div>
           <div className="card ">
             <div className="card-body  ">
-              <div className="my-4 table-responsive ">
+              <div className="my-4 table-responsive overflow-visible ">
                 <ToolkitProvider
                   keyField="id"
                   data={this.state.countryListNew}
