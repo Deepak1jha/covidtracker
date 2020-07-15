@@ -351,8 +351,8 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-          <div className="card ">
-            <div className="card-body  ">
+          <div className="card table-responsive overflow-visible">
+            <div className="card-body table-responsive overflow-visible ">
               <div className="my-4 table-responsive overflow-visible ">
                 <ToolkitProvider
                   keyField="id"
